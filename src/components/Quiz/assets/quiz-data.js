@@ -1,248 +1,266 @@
 const quizData = {
-  title: 'LEAPing into Mathematics: Algebra',
+  title: 'LEAPing into Mathematics: Number Systems',
   description:
-    'Algebra is a branch of mathematics that deals with variables and the arithmetic operations across these variables. This interactive, multiple-choice quiz is great to test your algebra knowledge in a fun way.  Press START to LEAP into the fun!',
+    'Number systems is the mathematical notation of representing numbers that provides a unique representation of every number and represents the arithmetic and algebraic structure of the figures. This interactive, multiple-choice quiz is great to test your knowledge in a fun way.  Press START to LEAP into the fun!',
   img: 'leap-orange-navy-brand.png',
   questions: [
     {
       id: 1,
-      text: 'Ratios are _______',
+      text: 'Evaluate: 20 - 8 * (-5)',
       alternatives: [
         {
           id: 1,
-          text: 'useless',
+          text: '60',
           isCorrect: false,
         },
         {
           id: 2,
-          text: 'fractions',
-          isCorrect: true,
-        },
-		{
-          id: 3,
-          text: 'colorful',
+          text: '-128',
           isCorrect: false,
         },
 		{
+          id: 3,
+          text: '-60',
+          isCorrect: true,
+        },
+		{
           id: 4,
-          text: 'happy',
+          text: '64',
           isCorrect: false,
         },
       ],
     },
     {
       id: 2,
-      text: 'When ratio = ratio, this is referred to as ________',
+      text: 'Evaluate: -3(-4) - 8(-2)',
       alternatives: [
         {
           id: 1,
-          text: 'integer',
-          isCorrect: false,
+          text: '28',
+          isCorrect: true,
         },
         {
           id: 2,
-          text: 'proportion',
-          isCorrect: true,
+          text: '4',
+          isCorrect: false,
         },        
 		{
           id: 3,
-          text: 'fraction',
+          text: '-4',
           isCorrect: false,
         },
 		        {
           id: 4,
-          text: 'number',
+          text: '-28',
           isCorrect: false,
         },
       ],
     },
     {
       id: 3,
-      text: 'What is the ratio of squares to triangles?',
-      img: 'question-example-1.jpg',
+      text: 'Evaluate: -1/2 + 2(-5/6)',
       alternatives: [
         {
           id: 1,
-          text: '3:2',
+          text: '7/6',
           isCorrect: false,
         },
         {
           id: 2,
-          text: '2:3',
+          text: '13/6',
           isCorrect: false,
         },
         {
           id: 3,
-          text: '1:4',
-          isCorrect: true,
+          text: '3/4',
+          isCorrect: false,
         },
         {
           id: 4,
-          text: '4:1',
-          isCorrect: false,
+          text: '-13/6',
+          isCorrect: true,
         },
       ],
     },
     {
       id: 4,
-      text: 'A store has 10 doors and 40 windows.  What is the ratio of doors to windows?',
-      img: 'question-example.jpg',
+      text: 'Solve for x in the following: 12(-6) - 8(x) = 0',
       alternatives: [
         {
           id: 1,
-          text: '10/40 or 1/4',
-          isCorrect: true,
+          text: '6',
+          isCorrect: false,
         },
         {
           id: 2,
-          text: '40/10 or 4/1',
+          text: '-9',
+          isCorrect: true,
+        },
+        {
+          id: 3,
+          text: '9',
           isCorrect: false,
         },
+        {
+          id: 4,
+          text: '5',
+          isCorrect: false,
+        },      
       ],
     },
 	{
       id: 5,
-      text: 'A store has 10 doors and 40 windows.  What is ratio of windows to doors?',
+    text: 'Evaluate the expression: -4/8 * -12/16',
       alternatives: [
         {
           id: 1,
-          text: '10/40 or 1/4',
+          text: '-8/3',
           isCorrect: false,
         },
         {
           id: 2,
-          text: '40/10 or 4/1',
+          text: '3/8',
+          isCorrect: false,
+        },
+        {
+          id: 3,
+          text: '-3/8',
           isCorrect: true,
+        },
+        {
+          id: 4,
+          text: '7/8',
+          isCorrect: false,
         },
       ],
     },
 	{
       id: 6,
-      text: 'The ratio 1/2 is proportional to ________',
+      text: 'Evaluate the expression: -8(5) + 12(-10) / (16 + 8(-2))',
       alternatives: [
         {
           id: 1,
-          text: '1/3',
+          text: '0',
           isCorrect: false,
         },
         {
           id: 2,
-          text: '4/8',
+          text: 'undefined',
           isCorrect: true,
         },
 		{
           id: 3,
-          text: '3/4',
+          text: '12',
           isCorrect: false,
         },
 		{
           id: 4,
-          text: '2/3',
+          text: '1',
           isCorrect: false,
         },
       ],
     },
 	{
       id: 7,
-      text: 'What is the ratio 3:6 proportional to:',
+    text: 'Which of the following is a correct interpretation of the expression -3 + (-8)?',
       alternatives: [
         {
           id: 1,
-          text: '4:8',
+          text: 'The number that is 3 to the left of the 8 on the number line',
           isCorrect: false,
         },
         {
           id: 2,
-          text: '4:12',
+          text: 'The number that is 3 to the right of the 8 on the number line',
           isCorrect: false,
         },
 		{
           id: 3,
-          text: '6:12',
+          text: 'The number that is 8 to the left of the -3 on the number line',
           isCorrect: true,
         },
 		{
           id: 4,
-          text: '12:6',
+          text: 'The number that is 8 to the right of -3 on the number line',
           isCorrect: false,
         },
       ],
     },
 	{
       id: 8,
-      text: 'Cross multiplication is used to check if a proportion is ________:',
+      text: 'Select the best interpretation of the following inequality: |-4.5 - x| > 3',
       alternatives: [
         {
           id: 1,
-          text: 'long',
-          isCorrect: false,
+          text: 'The distance between -4.5 and x is greater than 3',
+          isCorrect: true,
         },
         {
           id: 2,
-          text: 'short',
+          text: 'The distance between -4.5 and -x is greater than 3',
           isCorrect: false,
         },
 		{
           id: 3,
-          text: 'small',
+          text: 'The distance between 3 and -4.5 is greater than x',
           isCorrect: false,
         },
 		{
           id: 4,
-          text: 'true',
-          isCorrect: true,
+          text: 'The distance between -4.5 and x is equal to 3',
+          isCorrect: false,
         },
       ],
     },
 	{
       id: 9,
-      text: 'Use cross multiplication, find x: x/3 = 8/12',
+      text: 'Evaluate the following expression: -x - 4.5 = 6.7',
       alternatives: [
         {
           id: 1,
-          text: '2',
-          isCorrect: true,
+          text: '6.8',
+          isCorrect: false,
         },
         {
           id: 2,
-          text: '3',
+          text: '5.4',
           isCorrect: false,
         },
 		{
           id: 3,
-          text: '4',
-          isCorrect: false,
+          text: '-11.2',
+          isCorrect: true,
         },
 		{
           id: 4,
-          text: '5',
+          text: '11.2',
           isCorrect: false,
         },
       ],
     },
 	{
       id: 10,
-      text: 'The ratio of boys to girls in a class is 3:2.  If there are 9 boys, find the number of girls.',
+    text: 'Evaluate (a * b) / c where a = -10, b = 6, and c = -4.',
       alternatives: [
         {
           id: 1,
-          text: '3',
+          text: '15',
           isCorrect: false,
         },
         {
           id: 2,
+          text: '-15',
+          isCorrect: true,
+        },
+		{
+          id: 3,
           text: '4',
           isCorrect: false,
         },
 		{
-          id: 3,
-          text: '5',
-          isCorrect: false,
-        },
-		{
           id: 4,
-          text: '6',
-          isCorrect: true,
+          text: '-20',
+          isCorrect: false,
         },
       ],
     },
