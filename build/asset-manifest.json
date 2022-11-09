@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f2bd0723.css",
-    "main.js": "/static/js/main.4cb3c951.js",
+    "main.css": "/static/css/main.c2df2fe4.css",
+    "main.js": "/static/js/main.1a287240.js",
     "static/js/787.9c4f8028.chunk.js": "/static/js/787.9c4f8028.chunk.js",
     "static/media/default.jpg": "/static/media/default.7c34467fce9562473ea7.jpg",
     "static/media/leap-orange-navy-brand.jpg": "/static/media/leap-orange-navy-brand.715d19ef18a95eb4eb6a.jpg",
@@ -15,12 +15,12 @@
     "index.html": "/index.html",
     "static/media/icon-facebook.svg": "/static/media/icon-facebook.a46390b9d70ad562237c5dad74fc991a.svg",
     "static/media/arrow-return.svg": "/static/media/arrow-return.69f41a82c558e2351b358a9fad432848.svg",
-    "main.f2bd0723.css.map": "/static/css/main.f2bd0723.css.map",
-    "main.4cb3c951.js.map": "/static/js/main.4cb3c951.js.map",
+    "main.c2df2fe4.css.map": "/static/css/main.c2df2fe4.css.map",
+    "main.1a287240.js.map": "/static/js/main.1a287240.js.map",
     "787.9c4f8028.chunk.js.map": "/static/js/787.9c4f8028.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f2bd0723.css",
-    "static/js/main.4cb3c951.js"
+    "static/css/main.c2df2fe4.css",
+    "static/js/main.1a287240.js"
   ]
 }
