@@ -6,7 +6,8 @@ const quizData = {
   questions: [
     {
       id: 1,
-      text: 'Evaluate: 20 - 8 * (-5)',
+      text: 'Evaluate: the expression above:',
+      img: 'question1.png',
       alternatives: [
         {
           id: 1,
@@ -32,7 +33,8 @@ const quizData = {
     },
     {
       id: 2,
-      text: 'Evaluate: -3(-4) - 8(-2)',
+      text: 'Evaluate the expression above:',
+      img: 'question2.png',
       alternatives: [
         {
           id: 1,
@@ -58,7 +60,8 @@ const quizData = {
     },
     {
       id: 3,
-      text: 'Evaluate: -1/2 + 2(-5/6)',
+      text: 'Evaluate the expression above:',
+      img: 'question3.png',
       alternatives: [
         {
           id: 1,
@@ -84,33 +87,35 @@ const quizData = {
     },
     {
       id: 4,
-      text: 'Solve for x in the following: 12(-6) - 8(x) = 0',
+      text: 'Solve for x',
+      img: 'question4.png',
       alternatives: [
         {
           id: 1,
-          text: '6',
+          text: 'x = 6',
           isCorrect: false,
         },
         {
           id: 2,
-          text: '-9',
+          text: 'x = -9',
           isCorrect: true,
         },
         {
           id: 3,
-          text: '9',
+          text: 'x = 9',
           isCorrect: false,
         },
         {
           id: 4,
-          text: '5',
+          text: 'x = 5',
           isCorrect: false,
         },      
       ],
     },
 	{
       id: 5,
-    text: 'Evaluate the expression: -4/8 * -12/16',
+      text: 'Evaluate the expression above:',
+      img: 'question5.png',
       alternatives: [
         {
           id: 1,
@@ -136,7 +141,8 @@ const quizData = {
     },
 	{
       id: 6,
-      text: 'Evaluate the expression: -8(5) + 12(-10) / (16 + 8(-2))',
+      text: 'Evaluate the expression above:',
+      img: 'question6.png',
       alternatives: [
         {
           id: 1,
@@ -162,7 +168,8 @@ const quizData = {
     },
 	{
       id: 7,
-    text: 'Which of the following is a correct interpretation of the expression -3 + (-8)?',
+      text: 'Which of the following is a correct interpretation of the expression -3 + (-8)?',
+      img: 'numberLine.png',
       alternatives: [
         {
           id: 1,
@@ -188,7 +195,8 @@ const quizData = {
     },
 	{
       id: 8,
-      text: 'Select the best interpretation of the following inequality: |-4.5 - x| > 3',
+      text: 'Select the best interpretation of the inequality above:',
+      img: 'question8.png',
       alternatives: [
         {
           id: 1,
@@ -214,33 +222,35 @@ const quizData = {
     },
 	{
       id: 9,
-      text: 'Evaluate the following expression: -x - 4.5 = 6.7',
+      text: 'Solve for x:',
+      img: 'question9.png',
       alternatives: [
         {
           id: 1,
-          text: '6.8',
+          text: 'x = 6.8',
           isCorrect: false,
         },
         {
           id: 2,
-          text: '5.4',
+          text: 'x = 5.4',
           isCorrect: false,
         },
 		{
           id: 3,
-          text: '-11.2',
+          text: 'x = -11.2',
           isCorrect: true,
         },
 		{
           id: 4,
-          text: '11.2',
+          text: 'x = 11.2',
           isCorrect: false,
         },
       ],
     },
 	{
       id: 10,
-    text: 'Evaluate (a * b) / c where a = -10, b = 6, and c = -4.',
+      text: 'Evaluate expression where a = -10, b = 6, and c = -4.',
+      img: 'question10.png',
       alternatives: [
         {
           id: 1,
