@@ -125,12 +125,12 @@ const quizData = {
         {
           id: 2,
           text: '3/8',
-          isCorrect: false,
+          isCorrect: true,
         },
         {
           id: 3,
           text: '-3/8',
-          isCorrect: true,
+          isCorrect: false,
         },
         {
           id: 4,
